@@ -21,7 +21,7 @@ class LoginForm extends React.Component {
   
   handleSubmit = event => {
     event.preventDefault()
-    
+    // eslint-disable-next-line
     if (this.state.username != "" && this.state.password != "") {
       this.props.handleLogin(event)
     }
