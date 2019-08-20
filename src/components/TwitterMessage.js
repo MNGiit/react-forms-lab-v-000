@@ -4,7 +4,10 @@ class TwitterMessage extends React.Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {
+      // new code
+      message: "Type your tweet here."
+    };
   }
 
   render() {
