@@ -30,6 +30,7 @@ class LoginForm extends React.Component {
   
   render() {
     // new code in form, before it was <form>
+    // new code in <input>, added the onChange function
     return (
       <form onSubmit={this.handleSubmit}>
         <div>
