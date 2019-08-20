@@ -12,7 +12,11 @@ class TwitterMessage extends React.Component {
   }
   
   // new code
-
+  characterWatcher = event => {
+    this.setState({
+      message: event.target.value
+    })
+  }
   // end of new code
   
   render() {
