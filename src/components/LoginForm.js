@@ -30,7 +30,7 @@ class LoginForm extends React.Component {
   
   render() {
     // new code in form, before it was <form>
-    // new code in <input>, added the onChange function
+    // new code in <input>, added onChange={this.handleInput}
     return (
       <form onSubmit={this.handleSubmit}>
         <div>
@@ -42,7 +42,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Password
-            <input id="password" name="password" type="password" />
+            <input id="password" name="password" type="password" onChange={this.handleInput}/>
           </label>
         </div>
         <div>
