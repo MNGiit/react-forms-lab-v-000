@@ -26,7 +26,7 @@ class TwitterMessage extends React.Component {
         <strong>Your message:</strong>
         <input type="text" name="message" id="message" value={this.state.message} onChange={this.characterWatcher}/>
         <strong>Max Characters:</strong
-        {this.props.maxChars}
+        
       </div>
     );
   }
