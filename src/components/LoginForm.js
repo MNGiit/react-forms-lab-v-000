@@ -29,8 +29,9 @@ class LoginForm extends React.Component {
   // end of new code
   
   render() {
+    // new code in form, before it was <form>
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <label>
             Username
